@@ -1,0 +1,71 @@
+:root {
+  --dark-turq: #194759;
+  --turq: #7EBFB3;
+  --light-turq: #A7F2E4;
+  --white: #EBF2F1;
+  --desat-green: #4F7369;
+  --black: #111212;
+}
+
+.default-btn {
+  background-color: var(--turq);
+  border: 2px solid var(--dark-turq);
+  padding: 8px 16px;
+  border-radius: 32px;
+  transition: color 0.25s ease, background-color 0.25s ease;
+  cursor: pointer;
+}
+.default-btn a:hover {
+  text-decoration: none;
+}
+
+.default-btn:hover {
+  background-color: var(--dark-turq);
+}
+.default-btn:hover h2, .default-btn:hover h3, .default-btn:hover h4, .default-btn:hover h5, .default-btn:hover p {
+  color: var(--turq);
+}
+
+.anti-default-white-btn {
+  background-color: var(--dark-turq);
+  border: 2px solid var(--dark-turq);
+  padding: 8px 16px;
+  border-radius: 8px;
+  transition: color 0.25s ease, background-color 0.25s ease;
+  cursor: pointer;
+}
+.anti-default-white-btn h2, .anti-default-white-btn h3, .anti-default-white-btn h4, .anti-default-white-btn h5, .anti-default-white-btn p {
+  color: var(--white);
+}
+.anti-default-white-btn a:hover {
+  text-decoration: none;
+}
+.anti-default-white-btn:hover {
+  background-color: var(--white);
+}
+.anti-default-white-btn:hover h2, .anti-default-white-btn:hover h3, .anti-default-white-btn:hover h4, .anti-default-white-btn:hover h5, .anti-default-white-btn:hover p {
+  color: var(--dark-turq);
+}
+
+.anti-default-btn {
+  background-color: var(--dark-turq);
+  border: 2px solid var(--dark-turq);
+  padding: 8px 16px;
+  border-radius: 8px;
+  transition: color 0.25s ease, background-color 0.25s ease;
+  cursor: pointer;
+}
+.anti-default-btn h2, .anti-default-btn h3, .anti-default-btn h4, .anti-default-btn h5, .anti-default-btn p {
+  color: var(--turq);
+}
+.anti-default-btn a:hover {
+  text-decoration: none;
+}
+.anti-default-btn:hover {
+  background-color: var(--turq);
+}
+.anti-default-btn:hover h2, .anti-default-btn:hover h3, .anti-default-btn:hover h4, .anti-default-btn:hover h5, .anti-default-btn:hover p {
+  color: var(--dark-turq);
+}
+
+/*# sourceMappingURL=buttons.css.map */
